@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    background-color: #2F3061;
+    font-family: 'Muli', sans-serif;
+}
+
+
+.header {
+    background-color: #2F3061;
+    width: 100%;
+    height:80px; 
+    display: flex;
+    /* Deja un espacio en el medio de los 2 contenedores */ 
+    justify-content: space-between;     
+}
+
+.header__img--logo {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu ul {
+    /* Display con none no muestra elementos  */
+    display: none; 
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    text-align: right;
+    margin: 0px 0px 0px -14px;
+
+}
+
+.header__menu:hover ul, ul:hover {
+    /* display block para mostrar los elementos */
+    display: block;
+}
+
+.header__menu li {
+    margin: 10px 0px;
+}
+
+.header__menu li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header__menu li a:hover {
+    text-decoration: underline;
+
+}
+
+.header__menu--profile {
+    margin-right: 8px;
+    display: flex;
+}
+
+.header__menu--profile img {
+    margin-right: 8px;
+
+}
+.header__menu--profile p {
+    color: white;
+}
+
